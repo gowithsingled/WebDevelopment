@@ -1,0 +1,25 @@
+READ this text when you have some problem
+
+1. Upload
+
+% git add Directory or Files
+% git commit -m "Message that you want to say"
+% git push -u origin master
+
+2. Set repository
+
+% git remote set-url origin https://github.com/gowithsingled/REPOSITORY.git
+
+!this is for checking your settings
+
+% git remote -v
+
+3. After setting repository
+
+! you will be rejected to upload
+! then you should do this
+
+% git pull --rebase origin
+
+! will change the remote user
+
